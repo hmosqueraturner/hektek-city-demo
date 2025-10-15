@@ -4,6 +4,7 @@
 An **interactive 3D portfolio** built with **React Three Fiber**, **Blender / Omniverse**, and **Vite**.  
 This project showcases a professional journey as a **CTO / Engineering Manager** and an enthusiast of **AI, games and space** — presented as an immersive, gamified 3D experience.
 
+
 ---
 
 ## Table of Contents
