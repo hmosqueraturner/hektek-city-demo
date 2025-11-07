@@ -1,9 +1,11 @@
 
+# HEKTEK City
+
 ![HEKTEK City Banner](./docs/assets/banner-mockup.png)
 
-### **A Next-Generation 3D Portfolio Experience**
+## **A Next-Generation 3D Portfolio Experience**
 
-*An immersive, gamified journey through professional expertise, built with cutting-edge web technologies*
+### *An immersive, gamified journey through professional expertise, built with cutting-edge web technologies*
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live-Demo-0066cc?style=for-the-badge)](https://hektek-city.vercel.app/)
 [![Documentation](https://img.shields.io/badge/📚_Full-Docs-success?style=for-the-badge)](./docs/)
@@ -70,6 +72,14 @@ This approach transforms passive viewing into active exploration, creating memor
 ---
 
 ## ✨ Features
+
+- [x] **Immersive 3D Experience:** Navigate a customizable 3D city to explore expertise.
+- [x] **Theme System:** Switch between 7 unique environmental themes (Cyberpunk, Mars, Pandora, etc.).
+- [x] **Intelligent Asset Loading:** Dynamic loading of themes and models with fallbacks.
+- [x] **Performance Optimization:** Implements a **Hybrid Quality Strategy (Low/Standard Resolution)** for fast loading.
+- [x] **Full Mobile Support:** Optimized touch controls and high performance on mobile devices.
+- [x] **Bilingual Content (ES/EN):** Content is ready for localization and SEO indexing in Spanish and English.
+- [x] **Analytics:** Integrated Google Analytics for behavior tracking.
 
 ### 🎮 **Core Experience**
 
@@ -282,8 +292,8 @@ HEKTEK City features a sophisticated theme system that coordinates terrain, buil
 | **Cyberpunk** | HTLand | HekTek-magic-garden | Neon dystopia | ✅ Production |
 | **Alien** | LakeCity | HekTek-custom | Extraterrestrial | ✅ Production |
 | **Pandora** | LakeCity | HekTek-magic-garden | Bio-luminescent jungle | ✅ Production |
-| **Mars** | HTLand | HekTek-skils | Red planet colony | ✅ Production |
-| **Desert** | HTLand | HekTek-comet | Arid wasteland | ✅ Production |
+| **Mars** | Mars | HekTek-skils | Red planet colony | ✅ Production |
+| **Desert** | Mars | HekTek-comet | Arid wasteland | ✅ Production |
 
 ### Theme Architecture
 
@@ -672,7 +682,37 @@ Vite provides instant updates during development:
 
 ## 📊 Performance
 
+The city is designed for high performance and near-instant loading times. This is achieved through a multi-layered asset strategy:
+
+### 1. Hybrid Quality Strategy (HQS)
+
+Models are stored in **two quality tiers** on Cloudflare R2:
+
+- **`standard`**: High-resolution meshes and 2k/4k textures, used for desktop and high-end devices.
+- **`low_res`**: **Aggressively simplified meshes (80% reduction)** and textures reduced to **1k (1024x1024)**, used as the primary fallback and for mobile devices.
+
+The application intelligently requests the appropriate asset tier based on device capabilities and falls back to `low_res` instantly if the primary asset fails to load, ensuring the user always sees a model immediately.
+
+### 2. Asset Pipeline
+
+All assets are pre-processed using `gltf-transform` to ensure:
+
+- Decimation for `low_res` models.
+- Texture resizing for mobile VRAM efficiency.
+- Reordering of vertices for GPU cache optimization.
+
 ### Benchmarks
+
+Tested on **RAIDER GE78 / GPU Nvidia RTX 4070 / Intel Core i9-14400K**:
+
+| Metric | Target | Actual |
+|--------|--------|--------|
+| Initial Load | < 3s | ✅ 2.1s |
+| Theme Switch | < 2s | ✅ 0.9s |
+| FPS (1080p) | > 60 | ✅ 60+ |
+| FPS (4K) | > 30 | ✅ 45+ |
+| Bundle Size | < 500 KB | ✅ 387 KB |
+| Lighthouse Score | > 90 | ✅ 94 |
 
 Tested on **MacBook Pro M1 / RTX 3060 / i7-12700K**:
 
@@ -849,39 +889,67 @@ AssetManager.getHdrEnvironment(hdrName, options)
 
 ## 🛣️ Roadmap
 
-### ✅ Completed (v1.0)
+### ✅ Completed (v1.0.0)
 
+- [x] **Full Production Release (v1.0.0)**
 - [x] Core 3D scene with React Three Fiber
 - [x] Theme system with 7 environments
-- [x] Intelligent asset caching
+- [x] **Intelligent asset caching & HQS (Low/Standard)**
 - [x] Three building models (Skills, Experience, Vision)
 - [x] Camera navigation system
 - [x] HDR environment pipeline
 - [x] Cloudflare R2 integration
+- [x] **Full Mobile Support & Controls Optimization**
 - [x] Responsive design
 - [x] Loading states and error handling
+- [x] **Bilingual Content (ES/EN)**
+- [x] **Google Analytics Integration**
 - [x] Debug panel and development tools
 
 ### 🔨 In Progress (v1.1)
 
-- [ ] Decorative model system implementation
-- [ ] Mobile touch controls optimization
+- [ ] Decorative model system implementation (In progress)
 - [ ] Keyboard navigation (WASD)
 - [ ] Audio ambience system
 - [ ] Particle effects for themes
 
 ### 🔮 Future Versions
 
-**v1.2 - Enhanced Interactivity**
+### v1.2 - Enhanced Interactivity
 
 - [ ] Physics-based interactions
 - [ ] Animated building entrances
 - [ ] Interactive NPCs or guide characters
 - [ ] Mini-games or Easter eggs
 
-**v1.3 - Content Expansion**
+### v1.3 - Content Expansion**
 
 - [ ] Portfolio case studies
 - [ ] Project showcases with live demos
 - [ ] Blog integration
 - [ ] Testimonials section
+
+## 👥 Contributing
+
+| Name | Role | Contact |
+|------|------|----------|
+| [Héctor Mosquera Turner](https://github.com/hmosqueraturner) | Author / Developer | [hmosqueraturner@gmail.com](mailto:hmosqueraturner@gmail.com) |
+| (Waiting for new colaborators...) | | |
+
+---
+
+## ✍️ Author
+
+Developed and maintained by **[Héctor Mosquera Turner]**  
+📧 [hmosqueraturner@gmail.com](mailto:hmosqueraturner@gmail.com)  
+🌐 [https://hectortechno.com](https://hectortechno.com)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+© 2025 Héctor Mosquera Turner. All Rights Reserved for private portfolio code.
+
+---
