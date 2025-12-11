@@ -2,7 +2,22 @@
 * [History](HISTORY.md)
 
 * Architecture
-  * [Overview](ARCHITECTURE.md)
+  * [Overview](architecture/ARCHITECTURE.md)
+  * [System Diagrams](architecture/SYSTEM_DIAGRAMS.md)
+  * [Deployment](architecture/DEPLOYMENT.md)
+
+* Blog
+  * [Index](blog/README.md)
+  * [Publishing Workflow](blog/PUBLISHING_WORKFLOW.md)
+
+* Features
+  * [LIZA Specification](features/Liza/LIZA-FEATURE.md)
+  * [Neuro-Architect](features/NeuroArchitect/MATERIAL_ANALYSIS.md)
+  * [Branding](features/BRANDING.md)
+
+* Technical
+  * [AI Workflow](technical/AI_WORKFLOW_PROTOCOL.md)
+  * [Asset Viewer](technical/ASSETVIEWER_README.md)
 
 * Guides
   * [Theming & Materials](guides/THEMING.md)
