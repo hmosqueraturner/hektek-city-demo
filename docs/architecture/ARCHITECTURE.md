@@ -45,10 +45,7 @@ graph TB
 | **LizaCockpit** | The Unified HUD. Integrates Chat, Voice, Navigation, and Tour controls. | ✅ Standard (v6) |
 | **Neuro-Architect** | Generative material engine. Translates "Make it cyberpunk" into roughness/emissive maps. | ✅ Active |
 | **MapRPG** | The main game-loop orchestrator. Handles physics and camera flight. | ✅ Active |
-| **DynamicBuildingModel** | Loads GLB models and applies runtime materials based on themes. | ✅ Active | 
-| **LODTerrain** | Manages terrain loading (switching `HTLand_2k` -> `HTLand_4k`) for performance. | ✅ Active |
 | **useRemoteConfig** | The "No-Deploy" engine. Fetches configuration from Cloudflare R2 first, falling back to local only in dev. | ✅ Core |
-| **useTour** | Manages guided tour state and camera orchestration. | ✅ Active |
 
 ## 🔄 Data Methods
 

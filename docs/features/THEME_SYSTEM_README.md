@@ -1,162 +1,57 @@
-# 🎨 Features Documentation
+# 🎨 Neuro-Architect: The Generative Material Engine
 
-Documentation for HekTek City's key features and systems.
-
-## 📚 Available Documentation
-
-### [Theme System](./theme-system.md)
-Complete guide to the multi-theme environment system.
-
-**Topics covered:**
-- 7 available themes (Original, Cyberpunk, Mars, Pandora, etc.)
-- Theme architecture and configuration
-- Cache optimization
-- Usage examples
-- Theme switching implementation
-
-**Status:** ✅ Production-ready
-
----
-
-### [Decorative Models Guide](./decoratives-guide.md)
-Guide for implementing decorative models in themes.
-
-**Topics covered:**
-- Decorative model system overview
-- Theme-specific decoratives
-- Model specifications
-- Implementation patterns
-
-**Status:** ⚠️ Experimental (not production-enabled)
-
-**Note:** This feature exists in the codebase but is not currently enabled in production due to performance considerations. It may be replaced with an animation-based approach using the Material Variants architecture.
-
----
-
-## 🆕 New Features
-
-### Runtime Materials System ⭐ NEW
-Modify GLB materials in real-time without pipelines or KHR_materials_variants.
-
-**Current Status:**
-- ✅ Complete and production-ready
-- ✅ Zero pipeline required
-- ✅ Pure React/Three.js solution
-- ✅ Perfect for story-driven games
-
-**Documentation:**
-- **[Quick Start Guide](./RUNTIME_MATERIALS_GUIDE.md)** ← Start here!
-- [Implementation Summary](./IMPLEMENTATION_SUMMARY.md)
-- [Technical Plan](./PLAN_REAL_SOLUTION.md)
-
-**Use this instead of** the old KHR_materials_variants pipeline for dynamic material changes.
-
----
-
-### Hybrid Quality Strategy (HQS)
-Intelligent asset loading based on device capabilities.
-
-**Status:** ✅ Production-ready
-
-**Documentation:** See main [README.md](../../README.md#performance)
-
----
-
-## 📋 Feature Status Reference
-
-| Feature | Status | Production | Documentation | Version |
-|---------|--------|------------|---------------|---------|
-| **Runtime Materials** ⭐ | ✅ Complete | ✅ Ready | [RUNTIME_MATERIALS_GUIDE.md](./RUNTIME_MATERIALS_GUIDE.md) | v2.0 |
-| **Navigable Buildings** ⭐ | ✅ Complete | ✅ Ready | Component docs in code | v2.0 |
-| **3D Text Labels** ⭐ | ✅ Complete | ✅ Ready | Component docs in code | v2.0 |
-| **Custom Hooks** ⭐ | ✅ Complete | ✅ Ready | [RUNTIME_MATERIALS_GUIDE.md](./RUNTIME_MATERIALS_GUIDE.md) | v2.0 |
-| **Theme System** | ✅ Complete | ✅ Enabled | [theme-system.md](./theme-system.md) | v1.0 |
-| **Decorative Models** | ⚠️ Experimental | ❌ Disabled | [decoratives-guide.md](./decoratives-guide.md) | v1.x |
-| **HQS** | ✅ Complete | ✅ Enabled | [README.md](../../README.md) | v1.0 |
-| **HDR Environments** | ✅ Complete | ✅ Enabled | [theme-system.md](./theme-system.md) | v1.0 |
-| **Camera Navigation** | ✅ Complete | ✅ Enabled | [README.md](../../README.md) | v1.0 |
-| **Mobile Support** | ✅ Complete | ✅ Enabled | [README.md](../../README.md) | v1.0 |
-
----
-
-## 🎯 Feature Request Process
-
-Have an idea for a new feature?
-
-1. **Check existing documentation** to ensure it doesn't already exist
-2. **Review roadmap** in main [README.md](../../README.md#roadmap)
-3. **Consider technical feasibility** (performance, compatibility)
-4. **Document the proposal** with use cases and examples
-5. **Discuss with the team** before implementation
-
----
-
-## 📝 Adding Feature Documentation
-
-When documenting a new feature:
-
-### Required Sections
-
-1. **Overview** - What is this feature?
-2. **Status** - Production-ready? Experimental? Deprecated?
-3. **Configuration** - How to configure it
-4. **Usage** - Code examples and patterns
-5. **Performance** - Impact on performance
-6. **Troubleshooting** - Common issues and fixes
-7. **Related Documentation** - Links to related docs
-
-### Example Structure
-
-```markdown
-# Feature Name
-
-Brief description of the feature.
-
-## Status
-
-- **Development:** Complete / In Progress / Planned
-- **Production:** Enabled / Disabled / Testing
-- **Version:** 1.0.0
+> **Legacy Note**: References to "Theme Switching" (v3.0) are obsolete. Hektek City v6.0 uses **AI-Generative Painting**.
 
 ## Overview
+The **Neuro-Architect** system allows LIZA to hallucinate material properties in real-time. Instead of swapping pre-baked textures or selecting from a list of "presets", the engine accepts semantic descriptions (e.g., "Radioactive Swamp") and translates them into raw WebGL uniform values.
 
-Detailed explanation...
-
-## Configuration
-
-Configuration options...
-
-## Usage
-
-Code examples...
-
-## Performance
-
-Performance considerations...
-
-## Troubleshooting
-
-Common issues...
-
-## Related Documentation
-
-- [Link 1](...)
-- [Link 2](...)
+```mermaid
+graph LR
+    User("Voice: 'Make it look like Mars'") --> LIZA[LIZA Agent]
+    LIZA -->|Semantics| Neuro[Neuro-Architect]
+    Neuro -->|Uniforms| R3F[React Three Fiber]
+    
+    subgraph "Neuro-Architect Core"
+        Analysis[Semantic Analysis]
+        Palette[Palette Generation]
+        Injection[Material Injection]
+    end
+    
+    Neuro --> Analysis
+    Analysis --> Palette
+    Palette --> Injection
 ```
 
----
+## 🧠 Cognitive Material Generation
 
-## 🔗 Related Documentation
+Unlike traditional game engines, we do not have "Mars Texture" or "Cyberpunk Texture" stored on disk.
+We have **Base Geometries** (White-box models) that react to:
 
-### Development
-- [Tools Overview](../../tools/README.md)
-- [Pipeline Workflow](../pipeline/WORKFLOW_AUTOMATED.md)
-- [Implementation Summary](../technical/implementation-summary.md)
+1.  **Primary Color**: The dominant architectural tone.
+2.  **Accent Color**: Neon/Highlight elements.
+3.  **Roughness**: How "wet" or "matte" the surface feels.
+4.  **Emissive**: How much it glows.
+5.  **Terrain Hint**: "Sandy", "Rocky", "Sludge".
+6.  **Water Hint**: "Clear", "Toxic", "Lava".
 
-### Guides
-- [Quick Reference](../guides/quick-reference.md)
-- [Testing Guide](../guides/testing-variants.md)
+### The `apply_visual_theme` Tool
 
----
+LIZA calls this tool with a **Generated Payload**:
 
-**Last Updated:** 2025-11-18
+```json
+{
+  "styleName": "Generative Mars",
+  "primaryColor": "#ff4500",
+  "accentColor": "#ffae00",
+  "roughness": 0.8,
+  "metalness": 0.2,
+  "terrainHint": "red_dust",
+  "waterHint": "dry"
+}
+```
+
+## ⚡ Performance
+
+*   **Zero-Asset Load**: Changing a theme does **not** download new textures.
+*   **<1ms Execution**: Material uniforms are updated via React state, causing an instant visual shift.
+*   **Infinite Variety**: Since colors are floats, there are effectively infinite "Themes".

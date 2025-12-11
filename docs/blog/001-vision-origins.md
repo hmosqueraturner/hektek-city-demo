@@ -4,7 +4,7 @@
 **Category:** Vision
 **Tags:** AI, 3D, WebGL, Future
 
-![Vision Banner](../assets/vision-banner.png)
+![Vision Banner](https://hector-assets.b-cdn.net/img/post-covers/vision-banner.png)
 
 > "The portfolio of the future isn't a list of links—it's a world you explore."
 

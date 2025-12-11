@@ -16,7 +16,7 @@
 > **"It's not just a website. It's a dimension."**
 > LIZA (Living Interactive Zone Assistant) doesn't just read code—she *sees* the 3D world, *flies* the camera, and *re-paints* reality based on your voice commands.
 
-[🎮 **Enter the City**](https://hektek-city.vercel.app/) • [🧠 **AI Architecture**](./docs/architecture/SYSTEM_DIAGRAMS.md) • [🧾 **Blog & Updates**](./docs/blog/README.md)
+[🎮 **Enter the City**](https://hektek-city.vercel.app/) • [🧠 **AI Architecture**](./docs/architecture/SYSTEM_DIAGRAMS.md) • [🧾 **Blog & Updates**](./docs/blog/)
 
 </div>
 

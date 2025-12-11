@@ -18,12 +18,6 @@ The color scheme is high-contrast, designed for dark mode environments.
 | **Cyber Cyan** | `#00F0FF` | Accents, Tech Elements, "City" Brand | ![#00F0FF](https://placehold.co/15x15/00F0FF/00F0FF.png) |
 | **Void Black** | `#000000` | Backgrounds, Deep Contrast | ![#000000](https://placehold.co/15x15/000000/000000.png) |
 
-### Usage Rules
--   **Backgrounds** should be predominantly black or very dark grey.
--   **Text** should be white or light grey for readability.
--   **Accents** (borders, glows, active states) use **Cyber Cyan**.
--   **Primary Buttons** and **Critical UI** elements use **HekTek Red**.
-
 ## 🔤 Typography
 
 ### Primary Font: **Michroma**
@@ -31,24 +25,20 @@ Used for headings, branding, and UI elements that need a futuristic, machine-lik
 
 > "The quick brown fox jumps over the lazy dog."
 
-*Usage:*
--   Main Headings (`h1`, `h2`)
--   Button Labels
--   HUD Elements
-
 ### Secondary Font: **Sans-Serif** (System Default / Inter)
 Used for body text, descriptions, and long-form content to ensure readability.
 
-## 🖼️ Logo & Iconography
+## 🖼️ Iconography: CreativeIcons
 
-### The Icon
-The project uses a stylized representation of a city block or a digital node.
-*(Ensure the `public/icons` folder contains the latest SVG/PNG versions)*
+We do not use standard generic icons or a `public/icons` folder for UI elements. We use **CreativeIcons**, a custom React component system that renders SVG paths with dynamic gradient fills matching our `Red/Cyan` palette.
 
-### UI Components
--   **Glassmorphism**: Panels often use a semi-transparent black background with a blur effect (`backdrop-filter: blur(10px)`).
--   **Borders**: Thin, 1px borders in Cyan or Red are common.
--   **Glows**: `box-shadow` with Cyan/Red is used to indicate active or focused states.
+### Key Icons
+*   **RocketLaunchIcon**: Used for Tour activation.
+*   **LizaAwakeningIcon**: The neural-network representation of LIZA.
+*   **OrbitIcon**: Camera reset and navigation.
+*   **DevOpsInfiniteIcon**: Represents CI/CD and DevOps skills.
+
+*(See `src/components/CreativeIcons.jsx` for the SVG paths)*
 
 ## 💻 CSS Variables (Tailwind)
 
