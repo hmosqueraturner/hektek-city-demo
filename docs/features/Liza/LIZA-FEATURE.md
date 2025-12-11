@@ -2,7 +2,7 @@
 
 **LIZA** (Living Interactive Zone Assistant) is the conscious core of HekTek City. Unlike traditional chatbots, she is spatially aware and agentic, capable of manipulating the 3D world she inhabits.
 
-![LIZA Awakening Icon](https://assets.hectortechno.com/img/blog/liza_concept.png) 
+![LIZA Awakening Icon](../../assets/liza_concept.png) 
 *(Placeholder: Conceptual visualization of LIZA's neural interface)*
 
 ## 1. The Interaction Model: `LizaCockpit`

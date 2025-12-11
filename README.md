@@ -1,6 +1,6 @@
-# <img src="https://assets.hectortechno.com/img/blog/logo.svg" height="50" valign="middle" alt="HekTek Logo"/> HEKTEK City
+# <img src="./docs/assets/logo.svg" height="50" valign="middle" alt="HekTek Logo"/> HEKTEK City
 
-![HEKTEK City Banner](https://pub-0df7bc9a923b46b88486f03acbc27e9f.r2.dev/img/blog/BANER-docs-FINAL.png)
+![HEKTEK City Banner](./docs/assets/BANER-docs-FINAL.png)
 
 <div align="center">
 
@@ -44,7 +44,7 @@ LIZA is not a chatbot. She is a **Zone Assistant** integrated into the very fabr
 *   **Spatial Awareness**: She knows if you are looking at the "Skills" building or the "Arcade".
 *   **Tool Usage**: She can autonomously trigger `navigate_to_building`, `start_tour`, or `open_project`.
 
-![Liza Cockpit UI Mockup](https://assets.hectortechno.com/img/blog/cockpit-console-FINAL.png)
+![Liza Cockpit UI Mockup](./docs/assets/cockpit-console-FINAL.png)
 *(The ElizaCockpit HUD - Your command center)*
 
 ### 2. 🎨 Neuro-Architect: Generative Reality
