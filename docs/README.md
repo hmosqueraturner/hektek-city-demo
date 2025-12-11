@@ -69,20 +69,20 @@ Our architecture is a convergence of modern React, WebGL, and Agentic AI.
 
 ```mermaid
 graph TB
-    User[👤 User] -->|Voice/Text| Cockpit[🕹️ LizaCockpit]
-    Cockpit -->|Audio| WebSpeech[🗣️ Speech API]
-    Cockpit -->|Intent| LIZA[🧠 LIZA Agent (Vercel)]
+    User["👤 User"] -->|Voice/Text| Cockpit["🕹️ LizaCockpit"]
+    Cockpit -->|Audio| WebSpeech["🗣️ Speech API"]
+    Cockpit -->|Intent| LIZA["🧠 LIZA Agent (Vercel)"]
     
-    LIZA -->|Thinking...| Gemini[✨ Gemini 2.0 Flash]
-    LIZA -->|Context| RAG[🗂️ RAG System]
+    LIZA -->|Thinking...| Gemini["✨ Gemini 2.0 Flash"]
+    LIZA -->|Context| RAG["🗂️ RAG System"]
     
-    LIZA -- Tools --> Scene[🏙️ 3D Scene (R3F)]
+    LIZA -- Tools --> Scene["🏙️ 3D Scene (R3F)"]
     Scene -->|Visuals| User
     
     subgraph "No-Deploy Content"
-        R2[☁️ Cloudflare R2]
-        Config[⚙️ JSON Configs]
-        Assets[🎨 Models/Textures]
+        R2["☁️ Cloudflare R2"]
+        Config["⚙️ JSON Configs"]
+        Assets["🎨 Models/Textures"]
     end
     
     Scene <..> R2

@@ -53,20 +53,20 @@ The architecture that allows content updates without code deployments.
 ```mermaid
 graph TD
     subgraph "Local Development (Authoring)"
-        Dev[👨‍💻 Hector]
-        Docs[📄 Markdown Blog Posts]
-        Assets[🎨 3D Models / Textures]
-        Json[⚙️ Config JSONs]
+        Dev["👨‍💻 Hector"]
+        Docs["📄 Markdown Blog Posts"]
+        Assets["🎨 3D Models / Textures"]
+        Json["⚙️ Config JSONs"]
     end
 
     subgraph "Cloud Infrastructure"
-        R2[☁️ Cloudflare R2 Bucket]
-        Vercel[▲ Vercel Edge Runtime]
+        R2["☁️ Cloudflare R2 Bucket"]
+        Vercel["▲ Vercel Edge Runtime"]
     end
 
     subgraph "Client Runtime"
-        Browser[🌍 User Browser]
-        Hook[🪝 useRemoteConfig]
+        Browser["🌍 User Browser"]
+        Hook["🪝 useRemoteConfig"]
     end
 
     Dev -- Uploads --> R2
@@ -99,8 +99,8 @@ graph TB
     end
     
     subgraph "UI Layer (Z-Index: 10)"
-        Layout[ViewerLayout]
-        Cockpit[🕹️ LizaCockpit]
+        Layout["ViewerLayout"]
+        Cockpit["🕹️ LizaCockpit"]
     end
     
     App --> R3F
