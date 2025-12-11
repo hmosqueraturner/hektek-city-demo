@@ -85,7 +85,7 @@ graph TB
         Assets["🎨 Models/Textures"]
     end
     
-    Scene <..> R2
+    Scene -.-> R2
 ```
 
 [👉 **Explore Full System Diagrams**](./architecture/SYSTEM_DIAGRAMS.md)
