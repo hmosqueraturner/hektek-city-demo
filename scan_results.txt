@@ -1,0 +1,577 @@
+﻿D:\code\portfolio\hektek-city-demo\docs.md:7:### 🏗️ [Architecture](./docs/architecture/)
+D:\code\portfolio\hektek-city-demo\docs.md:9:- **[System Architecture](./docs/architecture/ARCHITECTURE.md)**: The LIZA and Neuro-Architect design.
+D:\code\portfolio\hektek-city-demo\docs.md:10:- **[Detailed System Diagrams](./docs/architecture/SYSTEM_DIAGRAMS.md)**: Complex mermaid charts of the event loop.
+D:\code\portfolio\hektek-city-demo\docs.md:11:- **[Deployment](./docs/architecture/DEPLOYMENT.md)**: CI/CD and R2 integration.
+D:\code\portfolio\hektek-city-demo\docs.md:13:### 📰 [Blog](./docs/blog/)
+D:\code\portfolio\hektek-city-demo\docs.md:15:- **[Publishing Workflow](./docs/blog/PUBLISHING_WORKFLOW.md)**: How to write and publish posts via R2.
+D:\code\portfolio\hektek-city-demo\docs.md:16:- **[Articles](./docs/blog/)**: Read the latest posts.
+D:\code\portfolio\hektek-city-demo\docs.md:18:### 🎨 [Features](./docs/features/)
+D:\code\portfolio\hektek-city-demo\docs.md:20:- **[LIZA Specification](./docs/features/Liza/LIZA-FEATURE.md)**: The Agent and LizaCockpit.
+D:\code\portfolio\hektek-city-demo\docs.md:21:- **[Neuro-Architect](./docs/features/NeuroArchitect/MATERIAL_ANALYSIS.md)**: Generative theme system.
+D:\code\portfolio\hektek-city-demo\docs.md:22:- **[Branding](./docs/features/BRANDING.md)**: Visual identity.
+D:\code\portfolio\hektek-city-demo\docs.md:24:### 🛠️ [Technical](./docs/technical/)
+D:\code\portfolio\hektek-city-demo\docs.md:26:- **[AI Workflow Protocol](./docs/technical/AI_WORKFLOW_PROTOCOL.md)**: Agent interaction rules.
+D:\code\portfolio\hektek-city-demo\docs.md:27:- **[Implementation Plans](./docs/technical/DOCUMENTATION_OVERHAUL_PLAN.md)**: Change history.
+D:\code\portfolio\hektek-city-demo\README.md:1:# <img src="./docs/assets/logo.svg" height="50" valign="middle" alt="HekTek Logo"/> HEKTEK City
+D:\code\portfolio\hektek-city-demo\README.md:3:![HEKTEK City Banner](./docs/assets/BANER-docs-FINAL.png)
+D:\code\portfolio\hektek-city-demo\README.md:11:[![Release v6.5.0](https://img.shields.io/badge/🚀_Release-v6.5.0_Phoenix_Recovery-BB1111?style=for-the-badge&labelColor=000000)](./docs/releases/v6.5.0-liza-recovery.md)
+D:\code\portfolio\hektek-city-demo\README.md:12:[![Live Demo](https://img.shields.io/badge/🌐_Live-Demo-00F0FF?style=for-the-badge&labelColor=000000&color=00F0FF)](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\README.md:13:[![Docs](https://img.shields.io/badge/📚_Technical_Deep_Dive-success?style=for-the-badge&labelColor=000000)](./docs/README.md)
+D:\code\portfolio\hektek-city-demo\README.md:14:[![License](https://img.shields.io/badge/⚖️_License-MIT-white?style=for-the-badge&labelColor=000000)](./LICENSE)
+D:\code\portfolio\hektek-city-demo\README.md:19:[🎮 **Enter the City**](https://hektek-city.vercel.app/) • [🧠 **AI Architecture**](./docs/architecture/SYSTEM_DIAGRAMS.md) • [🧾 **Blog & Updates**](./docs/blog/)
+D:\code\portfolio\hektek-city-demo\README.md:47:![Liza Cockpit UI Mockup](./docs/assets/cockpit-console-FINAL.png)
+D:\code\portfolio\hektek-city-demo\README.md:91:[👉 **Explore Full System Diagrams**](./docs/architecture/SYSTEM_DIAGRAMS.md)
+D:\code\portfolio\hektek-city-demo\README.md:101:| ![React](https://img.shields.io/badge/-React_19-61DAFB?logo=react&logoColor=black) | ![Three.js](https://img.shields.io/badge/-Three.js-black?logo=three.js) | ![Gemini](https://img.shields.io/badge/-Gemini_2.0-8E75B2?logo=google-bard) | ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel) |
+D:\code\portfolio\hektek-city-demo\README.md:102:| ![Vite](https://img.shields.io/badge/-Vite_7-646CFF?logo=vite) | ![RTF](https://img.shields.io/badge/-React_Three_Fiber-black) | ![Vercel AI SDK](https://img.shields.io/badge/-Vercel_AI_SDK-000?logo=vercel) | ![Cloudflare](https://img.shields.io/badge/-Cloudflare_R2-F38020?logo=cloudflare) |
+D:\code\portfolio\hektek-city-demo\README.md:103:| ![AntD](https://img.shields.io/badge/-Ant_Design-0170FE?logo=ant-design) | ![PostProcessing](https://img.shields.io/badge/-PostProcessing-orange) | ![Speech API](https://img.shields.io/badge/-Web_Speech_API-4285F4) | ![Git](https://img.shields.io/badge/-GitHub_Actions-2088FF) |
+D:\code\portfolio\hektek-city-demo\README.md:120:*   **[Technical Deep Dive](./docs/README.md)**: The engineer's guide to HekTek City.
+D:\code\portfolio\hektek-city-demo\README.md:121:*   **[LIZA Specification](./docs/features/Liza/LIZA-FEATURE.md)**: How the agent works.
+D:\code\portfolio\hektek-city-demo\README.md:122:*   **[Blog Publishing Protocol](./docs/blog/PUBLISHING_WORKFLOW.md)**: The R2 workflow.
+D:\code\portfolio\hektek-city-demo\README.md:131:[LinkedIn](https://linkedin.com/in/hmosqueraturner) • [GitHub](https://github.com/hmosqueraturner)
+D:\code\portfolio\hektek-city-demo\README_PREliza.md:9:> **[👉 Click here to view the Documentation](docs/README.md)**
+D:\code\portfolio\hektek-city-demo\README_PREliza.md:14:*   **[Live Demo](https://hektek-city.vercel.app/)**
+D:\code\portfolio\hektek-city-demo\README_PREliza.md:15:*   **[Documentation Home](docs/README.md)**
+D:\code\portfolio\hektek-city-demo\README_PREliza.md:16:*   **[Version History](docs/HISTORY.md)**
+D:\code\portfolio\hektek-city-demo\README_PREliza.md:17:*   **[Architecture](docs/ARCHITECTURE.md)**
+D:\code\portfolio\hektek-city-demo\README_PREliza.md:32:*Maintained by [Hector Mosquera Turner](https://github.com/hmosqueraturner)*
+D:\code\portfolio\hektek-city-demo\_sidebar.md:3:* [**Home**](/)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:4:* [**Technical Deep Dive**](docs/README.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:7:* [System Overview](docs/architecture/ARCHITECTURE.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:8:* [System Diagrams](docs/architecture/SYSTEM_DIAGRAMS.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:9:* [Deployment](docs/architecture/DEPLOYMENT.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:12:* [LIZA Specification](docs/features/Liza/LIZA-FEATURE.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:13:* [Neuro-Architect](docs/features/NeuroArchitect/MATERIAL_ANALYSIS.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:14:* [Branding](docs/features/BRANDING.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:17:* [Architecture Visuals](docs/guides/ARCHITECTURE_GUIDE.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:18:* [Asset Pipeline](docs/guides/ASSET_PIPELINE.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:19:* [Infrastructure](docs/guides/DEPLOYMENT_GUIDE.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:22:* [Latest Posts](docs/blog/)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:23:* [Publishing Workflow](docs/blog/PUBLISHING_WORKFLOW.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:26:* [AI Protocol](docs/technical/AI_WORKFLOW_PROTOCOL.md)
+D:\code\portfolio\hektek-city-demo\_sidebar.md:27:* [Documentation Plan](docs/technical/DOCUMENTATION_OVERHAUL_PLAN.md)
+D:\code\portfolio\hektek-city-demo\docs\CHANGELOG.md:5:The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+D:\code\portfolio\hektek-city-demo\docs\CHANGELOG.md:6:and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+D:\code\portfolio\hektek-city-demo\docs\CHANGELOG.md:45:- [Runtime Materials Guide](./docs/features/RUNTIME_MATERIALS_GUIDE.md)
+D:\code\portfolio\hektek-city-demo\docs\CHANGELOG.md:46:- [Implementation Summary](./docs/features/IMPLEMENTATION_SUMMARY.md)
+D:\code\portfolio\hektek-city-demo\docs\CHANGELOG.md:47:- [Technical Architecture](./docs/features/PLAN_REAL_SOLUTION.md)
+D:\code\portfolio\hektek-city-demo\docs\CHANGELOG.md:279:- [v2.0.0](https://github.com/hmosqueraturner/hektek-city/releases/tag/v2.0.0)
+D:\code\portfolio\hektek-city-demo\docs\CHANGELOG.md:280:- [v1.0.0](https://github.com/hmosqueraturner/hektek-city/releases/tag/v1.0.0)
+D:\code\portfolio\hektek-city-demo\docs\CHANGELOG.md:284:**For more details, visit the [full documentation](./docs/).**
+D:\code\portfolio\hektek-city-demo\docs\README.md:1:# <img src="./assets/logo.svg" height="50" valign="middle" alt="HekTek Logo"/> HEKTEK City
+D:\code\portfolio\hektek-city-demo\docs\README.md:3:![HEKTEK City Banner](./assets/BANER-docs-FINAL.png)
+D:\code\portfolio\hektek-city-demo\docs\README.md:11:[![Release v6.5.0](https://img.shields.io/badge/🚀_Release-v6.5.0_Phoenix_Recovery-BB1111?style=for-the-badge&labelColor=000000)](./releases/v6.5.0-liza-recovery.md)
+D:\code\portfolio\hektek-city-demo\docs\README.md:12:[![Live Demo](https://img.shields.io/badge/🌐_Live-Demo-00F0FF?style=for-the-badge&labelColor=000000&color=00F0FF)](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\docs\README.md:13:[![Docs](https://img.shields.io/badge/📚_Technical_Deep_Dive-success?style=for-the-badge&labelColor=000000)](./README.md)
+D:\code\portfolio\hektek-city-demo\docs\README.md:14:[![License](https://img.shields.io/badge/⚖️_License-MIT-white?style=for-the-badge&labelColor=000000)](./LICENSE)
+D:\code\portfolio\hektek-city-demo\docs\README.md:19:[🎮 **Enter the City**](https://hektek-city.vercel.app/) • [🧠 **AI Architecture**](./architecture/SYSTEM_DIAGRAMS.md) • [🧾 **Blog & Updates**](./blog/)
+D:\code\portfolio\hektek-city-demo\docs\README.md:47:![Liza Cockpit UI Mockup](./assets/cockpit-console-FINAL.png)
+D:\code\portfolio\hektek-city-demo\docs\README.md:91:[👉 **Explore Full System Diagrams**](./architecture/SYSTEM_DIAGRAMS.md)
+D:\code\portfolio\hektek-city-demo\docs\README.md:101:| ![React](https://img.shields.io/badge/-React_19-61DAFB?logo=react&logoColor=black) | ![Three.js](https://img.shields.io/badge/-Three.js-black?logo=three.js) | ![Gemini](https://img.shields.io/badge/-Gemini_2.0-8E75B2?logo=google-bard) | ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel) |
+D:\code\portfolio\hektek-city-demo\docs\README.md:102:| ![Vite](https://img.shields.io/badge/-Vite_7-646CFF?logo=vite) | ![RTF](https://img.shields.io/badge/-React_Three_Fiber-black) | ![Vercel AI SDK](https://img.shields.io/badge/-Vercel_AI_SDK-000?logo=vercel) | ![Cloudflare](https://img.shields.io/badge/-Cloudflare_R2-F38020?logo=cloudflare) |
+D:\code\portfolio\hektek-city-demo\docs\README.md:103:| ![AntD](https://img.shields.io/badge/-Ant_Design-0170FE?logo=ant-design) | ![PostProcessing](https://img.shields.io/badge/-PostProcessing-orange) | ![Speech API](https://img.shields.io/badge/-Web_Speech_API-4285F4) | ![Git](https://img.shields.io/badge/-GitHub_Actions-2088FF) |
+D:\code\portfolio\hektek-city-demo\docs\README.md:120:*   **[Technical Deep Dive](./README.md)**: The engineer's guide to HekTek City.
+D:\code\portfolio\hektek-city-demo\docs\README.md:121:*   **[LIZA Specification](./features/Liza/LIZA-FEATURE.md)**: How the agent works.
+D:\code\portfolio\hektek-city-demo\docs\README.md:122:*   **[Blog Publishing Protocol](./blog/PUBLISHING_WORKFLOW.md)**: The R2 workflow.
+D:\code\portfolio\hektek-city-demo\docs\README.md:131:[LinkedIn](https://linkedin.com/in/hmosqueraturner) • [GitHub](https://github.com/hmosqueraturner)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:22:- **Main README:** [../README.md](../README.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:23:- **Quick Start:** [pipeline/QUICK_START_AUTOMATED.md](pipeline/QUICK_START_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:24:- **Quick Reference:** [guides/quick-reference.md](guides/quick-reference.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:27:- **Theme System:** [features/theme-system.md](features/theme-system.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:28:- **Decorative Models:** [features/decoratives-guide.md](features/decoratives-guide.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:31:- **Pipeline Workflow:** [pipeline/WORKFLOW_AUTOMATED.md](pipeline/WORKFLOW_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:32:- **Testing Variants:** [guides/testing-variants.md](guides/testing-variants.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:33:- **Implementation Details:** [technical/implementation-summary.md](technical/implementation-summary.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:36:- **Architecture Overview:** [technical/pipeline-overview.md](technical/pipeline-overview.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:37:- **Executive Summary:** [technical/executive-summary.md](technical/executive-summary.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:43:### 🎨 [features/](./features/)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:50:### 📖 [guides/](./guides/)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:57:### 🏗️ [technical/](./technical/)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:64:### 🔧 [pipeline/](./pipeline/)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:71:### 🗄️ [archive/](./archive/)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:84:- [Pipeline Overview](technical/pipeline-overview.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:85:- [Quick Start](pipeline/QUICK_START_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:88:- [Automated Workflow](pipeline/WORKFLOW_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:89:- [Testing Guide](guides/testing-variants.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:92:- [Project Structure](pipeline/PROJECT_STRUCTURE.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:93:- [Changelog](pipeline/CHANGELOG_AUTOMATION.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:100:- [Theme System Documentation](features/theme-system.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:103:- [Quick Reference](guides/quick-reference.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:104:- [Implementation Summary](technical/implementation-summary.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:113:- [Decoratives Guide](features/decoratives-guide.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:114:- [Migration Guide (Archived)](archive/decoratives-migration-v1.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:121:- [Tools Overview](../tools/README.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:122:- [Blender Tools](../tools/blender/README.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:123:- [GLTF Pipeline](../tools/gltf/README.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:124:- [Automated Pipeline](../tools/pipeline/README.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:133:→ [Quick Start Guide](pipeline/QUICK_START_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:136:→ [Theme System Documentation](features/theme-system.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:139:→ [Automated Workflow](pipeline/WORKFLOW_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:142:→ [Testing Guide](guides/testing-variants.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:145:→ [Pipeline Overview](technical/pipeline-overview.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:148:→ [Quick Reference](guides/quick-reference.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:151:→ [Testing Guide - Troubleshooting](guides/testing-variants.md#troubleshooting)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:154:→ [Implementation Summary](technical/implementation-summary.md)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:174:- Use relative paths: `[link](../guides/quick-reference.md)`
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:228:- [Blender 4.5 Manual](https://docs.blender.org/manual/en/4.5/)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:229:- [Blender Python API](https://docs.blender.org/api/current/)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:232:- [glTF 2.0 Specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:233:- [KHR_materials_variants](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_variants)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:236:- [R3F Documentation](https://docs.pmnd.rs/react-three-fiber)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:237:- [drei Helpers](https://github.com/pmndrs/drei)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:240:- [Three.js Documentation](https://threejs.org/docs/)
+D:\code\portfolio\hektek-city-demo\docs\README_INT.md:241:- [Three.js Examples](https://threejs.org/examples/)
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:1:# <img src="assets/logo.svg" height="40" valign="middle" alt="HekTek Logo"/> HEKTEK City Documentation
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:3:![HEKTEK City Banner](assets/banner-mockup.png)
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:10:[![Release v4.2.0](https://img.shields.io/badge/🚀_Release-v4.2.0-BB1111?style=for-the-badge&labelColor=000000)](releases/v4.0.0.md)
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:11:[![Live Demo](https://img.shields.io/badge/🌐_Live-Demo-00F0FF?style=for-the-badge&labelColor=000000&color=00F0FF)](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:12:[![License](https://img.shields.io/badge/⚖️_License-MIT-white?style=for-the-badge&labelColor=000000)](LICENSE)
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:14:> **Latest:** [v4.2.0 "Imoto"](HISTORY.md) - Experience Control, Projects Arcade & R2 Integration.
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:33:| **[🏗️ Architecture](ARCHITECTURE.md)** | Detailed system layers, data flow, and component diagrams. |
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:34:| **[🚀 Deployment](guides/DEPLOYMENT.md)** | Setup guide, local dev, and build instructions. |
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:35:| **[🎨 Branding](guides/BRANDING.md)** | Color palettes, typography, and design philosophy. |
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:36:| **[📜 History](HISTORY.md)** | Full changelog and release history. |
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:37:| **[🛠️ Pipeline](pipeline/WORKFLOW.md)** | How we build, optimize, and ship 3D assets. |
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:40:*   [Theming & Materials](guides/THEMING.md)
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:41:*   [Content & Decoratives](guides/CONTENT.md)
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:42:*   [Quick Reference](guides/QUICK_REFERENCE.md)
+D:\code\portfolio\hektek-city-demo\docs\README_Preliza.md:71:| ![React](https://img.shields.io/badge/React_19-20232A?style=flat&logo=react&logoColor=61DAFB) | ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=three.js&logoColor=white) | ![Tailwind](https://img.shields.io/badge/Tailwind_4-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) |
+D:\code\portfolio\hektek-city-demo\docs\_navbar.md:1:* [Home](/)
+D:\code\portfolio\hektek-city-demo\docs\_navbar.md:2:* [GitHub](https://github.com/hmosqueraturner/hektek-city-demo)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:3:* [**Home**](/)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:4:* [**Technical Deep Dive**](README.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:7:* [System Overview](architecture/ARCHITECTURE.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:8:* [System Diagrams](architecture/SYSTEM_DIAGRAMS.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:9:* [Deployment](architecture/DEPLOYMENT.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:12:* [LIZA Specification](features/Liza/LIZA-FEATURE.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:13:* [Neuro-Architect](features/NeuroArchitect/MATERIAL_ANALYSIS.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:14:* [Branding](features/BRANDING.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:17:* [Architecture Visuals](guides/ARCHITECTURE_GUIDE.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:18:* [Asset Pipeline](guides/ASSET_PIPELINE.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:19:* [Infrastructure](guides/DEPLOYMENT_GUIDE.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:22:* [Latest Posts](blog/)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:23:* [Publishing Workflow](blog/PUBLISHING_WORKFLOW.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:26:* [AI Protocol](technical/AI_WORKFLOW_PROTOCOL.md)
+D:\code\portfolio\hektek-city-demo\docs\_sidebar.md:27:* [Documentation Plan](technical/DOCUMENTATION_OVERHAUL_PLAN.md)
+D:\code\portfolio\hektek-city-demo\docs\architecture\ARCHITECTURE.md:39:[👉 **See Detailed Event Loop & Sequence Diagrams**](./SYSTEM_DIAGRAMS.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:3:![HEKTEK City Banner](./docs/assets/banner-mockup.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:9:[![Release v4.0.0](https://img.shields.io/badge/🚀_Release-v4.0.0-BB1111?style=for-the-badge&labelColor=000000)](./docs/releases/v4.0.0.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:10:[![Live Demo](https://img.shields.io/badge/🌐_Live-Demo-00F0FF?style=for-the-badge&labelColor=000000&color=00F0FF)](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:11:[![Documentation](https://img.shields.io/badge/📚_Full-Docs-success?style=for-the-badge&labelColor=000000)](./docs/)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:12:[![License](https://img.shields.io/badge/⚖️_License-MIT-white?style=for-the-badge&labelColor=000000)](./LICENSE)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:18:- [🎯 Vision](#-vision)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:19:- [✨ Features](#-features)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:20:- [🎬 Demo & Screenshots](#-demo--screenshots)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:21:- [🏗️ Architecture](#️-architecture)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:22:- [🚀 Quick Start](#-quick-start)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:23:- [📦 Tech Stack](#-tech-stack)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:24:- [🎨 Theme System](#-theme-system)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:25:- [🗂️ Project Structure](#️-project-structure)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:26:- [⚙️ Configuration](#️-configuration)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:27:- [🎮 Controls & Navigation](#-controls--navigation)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:28:- [🏛️ 3D Models & Asset Pipeline](#️-3d-models--asset-pipeline)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:29:- [📝 Documentation](#-documentation)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:30:- [🛣️ Roadmap](#️-roadmap)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:31:- [🤝 Contributing](#-contributing)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:32:- [👨‍💻 Author](#-author)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:33:- [📄 License](#-license)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:111:**Experience HEKTEK City**: [hektek-city.vercel.app](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:118:![RPG Map](./docs/assets/screenshots/map-overview.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:122:![Cockpit](./docs/assets/screenshots/cockpit-console.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:126:![Projects](./docs/assets/screenshots/projects-arcade.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:130:![Themes](./docs/assets/screenshots/theme-showcase.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:253:| [React](https://react.dev/) | 19.1.1 | UI framework |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:254:| [Vite](https://vitejs.dev/) | 7.1.3 | Build tool & dev server |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:255:| [Three.js](https://threejs.org/) | 0.179.1 | 3D rendering engine |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:256:| [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) | 9.3.0 | React renderer for Three.js |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:262:| [@react-three/drei](https://github.com/pmndrs/drei) | Three.js helpers & abstractions |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:263:| [@react-three/postprocessing](https://github.com/pmndrs/react-postprocessing) | Post-processing effects |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:264:| [react-spring](https://react-spring.io/) | Animation library |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:265:| [framer-motion](https://www.framer.com/motion/) | UI animations |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:271:| [Ant Design](https://ant.design/) | Component library |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:272:| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:273:| [React Icons](https://react-icons.github.io/react-icons/) | Icon library |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:279:| [Cloudflare R2](https://www.cloudflare.com/products/r2/) | Object storage & CDN |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:280:| [Vercel](https://vercel.com/) | Hosting & CI/CD |
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:405:- **[🏗️ Architecture](./docs/ARCHITECTURE.md)**
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:406:- **[🚀 Deployment](./docs/DEPLOYMENT.md)**
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:407:- **[🎨 Branding](./docs/BRANDING.md)**
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:408:- **[📜 Releases](./docs/releases/)**
+D:\code\portfolio\hektek-city-demo\docs\archive\ARCHIVED_README.md:436:[Portfolio](https://hektek-city.vercel.app/) • [LinkedIn](https://linkedin.com/in/hmosqueraturner) • [GitHub](https://github.com/hmosqueraturner)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:4:![HEKTEK City Banner](./docs/assets/banner-mockup.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:10:[![Live Demo](https://img.shields.io/badge/🚀_Live-Demo-0066cc?style=for-the-badge)](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:11:[![Documentation](https://img.shields.io/badge/📚_Full-Docs-success?style=for-the-badge)](./docs/)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:12:[![License](https://img.shields.io/badge/⚖️_License-MIT-blue?style=for-the-badge)](./LICENSE)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:20:- [🎯 Vision](#-vision)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:21:- [✨ Features](#-features)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:22:- [🎬 Demo & Screenshots](#-demo--screenshots)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:23:- [🏗️ Architecture](#️-architecture)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:24:- [🚀 Quick Start](#-quick-start)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:25:- [📦 Tech Stack](#-tech-stack)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:26:- [🎨 Theme System](#-theme-system)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:27:- [🗂️ Project Structure](#️-project-structure)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:28:- [⚙️ Configuration](#️-configuration)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:29:- [🎮 Controls & Navigation](#-controls--navigation)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:30:- [🏛️ 3D Models & Asset Pipeline](#️-3d-models--asset-pipeline)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:31:- [🔧 Development](#-development)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:32:- [📊 Performance](#-performance)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:33:- [🚢 Deployment](#-deployment)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:34:- [📝 Documentation](#-documentation)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:35:- [🛣️ Roadmap](#️-roadmap)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:36:- [🤝 Contributing](#-contributing)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:37:- [👨‍💻 Author](#-author)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:38:- [📄 License](#-license)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:107:- **📦 Cloudflare R2 Integration** — Custom asset delivery with [Nicky Bucket](https://github.com/hmosqueraturner/nicky-bucket) VSCode extension
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:116:**Experience HEKTEK City**: [hektek-city.vercel.app](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:124:![RPG Map](./docs/assets/map-overview.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:129:![Skills](./docs/assets/skills-building.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:134:![Experience](./docs/assets/experience-building.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:139:![Vision](./docs/assets/vision-building.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:144:![Themes](./docs/assets/theme-showcase.png)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:243:| [React](https://react.dev/) | 18.3.1 | UI framework |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:244:| [Vite](https://vitejs.dev/) | 5.4.2 | Build tool & dev server |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:245:| [Three.js](https://threejs.org/) | 0.167.1 | 3D rendering engine |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:246:| [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) | 8.17.6 | React renderer for Three.js |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:252:| [@react-three/drei](https://github.com/pmndrs/drei) | Three.js helpers & abstractions |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:253:| [@react-three/postprocessing](https://github.com/pmndrs/react-postprocessing) | Post-processing effects |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:254:| [react-spring](https://react-spring.io/) | Animation library |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:255:| [camera-controls](https://github.com/yomotsu/camera-controls) | Advanced camera system |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:261:| [Ant Design](https://ant.design/) | Component library |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:262:| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:263:| [React Icons](https://react-icons.github.io/react-icons/) | Icon library |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:269:| [Cloudflare R2](https://www.cloudflare.com/products/r2/) | Object storage & CDN |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:271:| [Blender](https://www.blender.org/) / [Omniverse](https://www.nvidia.com/en-us/omniverse/) | 3D modeling |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:277:| [Vercel](https://vercel.com/) | Hosting & CI/CD |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:278:| [Cloudflare Pages](https://pages.cloudflare.com/) | Alternative hosting |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:355:For detailed theme configuration, see [THEME_SYSTEM_CHANGES.md](./THEME_SYSTEM_CHANGES.md).
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:785:1. Connect repository to [Vercel](https://vercel.com/)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:855:| [THEME_SYSTEM_CHANGES.md](./THEME_SYSTEM_CHANGES.md) | Complete guide to the theme system architecture |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:856:| [THEME_SYSTEM_EXAMPLES.jsx](./THEME_SYSTEM_EXAMPLES.jsx) | Code examples and implementation patterns |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:857:| [DECORATIVES_MIGRATION_GUIDE.md](./DECORATIVES_MIGRATION_GUIDE.md) | Guide for implementing decorative models |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:858:| [DECORATIVE_MODELS_GUIDE.md](./DECORATIVE_MODELS_GUIDE.md) | Decorative model specifications |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:859:| [EXECUTIVE_SUMMARY.md](./EXECUTIVE_SUMMARY.md) | High-level project overview |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:860:| [IMPLEMENTATION_SUMMARY.md](./IMPLEMENTATION_SUMMARY.md) | Technical implementation details |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:861:| [QUICK_REFERENCE.md](./QUICK_REFERENCE.md) | Quick commands and troubleshooting |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:936:| [Héctor Mosquera Turner](https://github.com/hmosqueraturner) | Author / Developer | [hmosqueraturner@gmail.com](mailto:hmosqueraturner@gmail.com) |
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:944:📧 [hmosqueraturner@gmail.com](mailto:hmosqueraturner@gmail.com)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:945:🌐 [https://hectortechno.com](https://hectortechno.com)
+D:\code\portfolio\hektek-city-demo\docs\archive\Old-README.md:951:This project is licensed under the [MIT License](./LICENSE).
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:23:### [Decoratives Migration Guide v1](./decoratives-migration-v1.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:33:- See current docs: [features/decoratives-guide.md](../features/decoratives-guide.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:41:| decoratives-migration-v1.md | DECORATIVES_MIGRATION_GUIDE.md | 2025-11-18 | Feature experimental | [features/decoratives-guide.md](../features/decoratives-guide.md) |
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:51:**Current location:** [docs/pipeline/](../pipeline/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:54:- [Quick Start](../pipeline/QUICK_START_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:55:- [Workflow](../pipeline/WORKFLOW_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:61:**Current location:** [docs/features/theme-system.md](../features/theme-system.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:67:**Current location:** [docs/guides/testing-variants.md](../guides/testing-variants.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:73:**Current location:** [docs/technical/pipeline-overview.md](../technical/pipeline-overview.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:79:**Current location:** [docs/technical/implementation-summary.md](../technical/implementation-summary.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:88:- [Root README](../../README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:89:- [Documentation Index](../README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:92:- **Features:** [docs/features/](../features/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:93:- **Guides:** [docs/guides/](../guides/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:94:- **Technical:** [docs/technical/](../technical/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:95:- **Pipeline:** [docs/pipeline/](../pipeline/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:96:- **Tools:** [tools/](../../tools/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:147:- [Documentation Index](../README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:148:- [Features](../features/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:149:- [Guides](../guides/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:150:- [Technical](../technical/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:151:- [Pipeline](../pipeline/)
+D:\code\portfolio\hektek-city-demo\docs\archive\README.md:154:- [tools/legacy/](../../tools/legacy/) - Archived code
+D:\code\portfolio\hektek-city-demo\docs\archive\features\IMPLEMENTATION_SUMMARY.md:216:- **User Guide:** [docs/RUNTIME_MATERIALS_GUIDE.md](docs/RUNTIME_MATERIALS_GUIDE.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\IMPLEMENTATION_SUMMARY.md:217:- **Technical Plan:** [PLAN_REAL_SOLUTION.md](PLAN_REAL_SOLUTION.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:7:### [Theme System](./theme-system.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:21:### [Decorative Models Guide](./decoratives-guide.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:48:- **[Quick Start Guide](./RUNTIME_MATERIALS_GUIDE.md)** ← Start here!
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:49:- [Implementation Summary](./IMPLEMENTATION_SUMMARY.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:50:- [Technical Plan](./PLAN_REAL_SOLUTION.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:61:**Documentation:** See main [README.md](../../README.md#performance)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:69:| **Runtime Materials** ⭐ | ✅ Complete | ✅ Ready | [RUNTIME_MATERIALS_GUIDE.md](./RUNTIME_MATERIALS_GUIDE.md) | v2.0 |
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:72:| **Custom Hooks** ⭐ | ✅ Complete | ✅ Ready | [RUNTIME_MATERIALS_GUIDE.md](./RUNTIME_MATERIALS_GUIDE.md) | v2.0 |
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:73:| **Theme System** | ✅ Complete | ✅ Enabled | [theme-system.md](./theme-system.md) | v1.0 |
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:74:| **Decorative Models** | ⚠️ Experimental | ❌ Disabled | [decoratives-guide.md](./decoratives-guide.md) | v1.x |
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:75:| **HQS** | ✅ Complete | ✅ Enabled | [README.md](../../README.md) | v1.0 |
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:76:| **HDR Environments** | ✅ Complete | ✅ Enabled | [theme-system.md](./theme-system.md) | v1.0 |
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:77:| **Camera Navigation** | ✅ Complete | ✅ Enabled | [README.md](../../README.md) | v1.0 |
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:78:| **Mobile Support** | ✅ Complete | ✅ Enabled | [README.md](../../README.md) | v1.0 |
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:87:2. **Review roadmap** in main [README.md](../../README.md#roadmap)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:143:- [Link 1](...)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:144:- [Link 2](...)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:152:- [Tools Overview](../../tools/README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:153:- [Pipeline Workflow](../pipeline/WORKFLOW_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:154:- [Implementation Summary](../technical/implementation-summary.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:157:- [Quick Reference](../guides/quick-reference.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\README.md:158:- [Testing Guide](../guides/testing-variants.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\features\RUNTIME_MATERIALS_GUIDE.md:313:- [PLAN_REAL_SOLUTION.md](../PLAN_REAL_SOLUTION.md) - Full technical plan
+D:\code\portfolio\hektek-city-demo\docs\archive\features\RUNTIME_MATERIALS_GUIDE.md:314:- [useDynamicMaterials.js](../src/hooks/useDynamicMaterials.js) - Hook implementation
+D:\code\portfolio\hektek-city-demo\docs\archive\features\RUNTIME_MATERIALS_GUIDE.md:315:- [visual-states.json](../src/config/visual-states.json) - Your configuration file
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\json-r2-impl-plan.md:43:#### [NEW] [src/hooks/useRemoteConfig.js](file:///d:/code/portfolio/hektek-city/src/hooks/useRemoteConfig.js)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\json-r2-impl-plan.md:54:#### [MODIFY] [src/hooks/useTour.js](file:///d:/code/portfolio/hektek-city/src/hooks/useTour.js)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\json-r2-impl-plan.md:58:#### [MODIFY] [src/components/MapRPG.jsx](file:///d:/code/portfolio/hektek-city/src/components/MapRPG.jsx)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\json-r2-impl-plan.md:62:#### [MODIFY] [src/config/content-sources.json](file:///d:/code/portfolio/hektek-city/src/config/content-sources.json)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\pipeline-overview.md:62:📖 **[WORKFLOW.md](docs/pipeline/WORKFLOW.md)** - Guía completa paso a paso
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\pipeline-overview.md:171:- 📋 **[INDEX](docs/pipeline/README.md)** - Punto de entrada principal
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\pipeline-overview.md:172:- ⭐ **[QUICKSTART](docs/pipeline/QUICKSTART.md)** - Comienza aquí (5 min)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\pipeline-overview.md:173:- 🔄 **[WORKFLOW](docs/pipeline/WORKFLOW.md)** - Workflow específico HekTek City
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\pipeline-overview.md:174:- 📁 **[STRUCTURE](docs/pipeline/PROJECT_STRUCTURE.md)** - Arquitectura del sistema
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\pipeline-overview.md:351:1. ✅ Lee el **[WORKFLOW.md](docs/pipeline/WORKFLOW.md)**
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:7:### [Pipeline Overview](./pipeline-overview.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:22:### [Implementation Summary](./implementation-summary.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:36:### [Executive Summary](./executive-summary.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:55:1. [Executive Summary](./executive-summary.md) - Understand the project
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:56:2. [Implementation Summary](./implementation-summary.md) - Learn the architecture
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:57:3. [Main README](../../README.md#architecture) - Review component structure
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:60:- [Theme System](../features/theme-system.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:61:- [Asset Management](../../README.md#asset-management)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:69:1. [Pipeline Overview](./pipeline-overview.md) - Understand the pipeline
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:70:2. [Workflow Documentation](../pipeline/WORKFLOW_AUTOMATED.md) - Learn the process
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:71:3. [Tools Documentation](../../tools/README.md) - Explore the tools
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:74:- [Blender Addon Internals](../../tools/blender/addons/README.md#technical-details)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:75:- [GLTF Processing](../../tools/gltf/README.md#technical-details)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:83:1. [Executive Summary](./executive-summary.md) - Project overview
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:84:2. [Blender Addon Guide](../../tools/blender/addons/README.md) - How to use the addon
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:85:3. [Quick Start](../pipeline/QUICK_START_AUTOMATED.md) - Quick workflow
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:88:- [Model Requirements](../../README.md#model-requirements)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:89:- [Optimization Guidelines](../../README.md#optimization-commands)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:90:- [Testing Guide](../guides/testing-variants.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:97:1. [Executive Summary](./executive-summary.md) - Project overview
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:98:2. [Deployment Guide](../../README.md#deployment) - Deployment options
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:99:3. [Performance Metrics](../../README.md#performance) - Benchmarks
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:102:- [Configuration](../../README.md#configuration)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:103:- [Environment Variables](../../README.md#environment-variables)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:104:- [Asset Organization](../../README.md#asset-organization-in-r2)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:198:- [Pipeline Overview](./pipeline-overview.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:199:- [Blender Tools](../../tools/blender/README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:200:- [GLTF Pipeline](../../tools/gltf/README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:219:- [Theme System Guide](../features/theme-system.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:220:- [Implementation Summary](./implementation-summary.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:239:- [Asset Management](../../README.md#asset-management)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:240:- [R2 Configuration](../../README.md#asset-organization-in-r2)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:296:- [Pipeline Scripts](../../tools/pipeline/README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:297:- [GLTF Tools](../../tools/gltf/README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:322:**Guide:** [Testing Variants](../guides/testing-variants.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:335:**Benchmarks:** [Performance Section](../../README.md#performance)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:364:- [Quick Reference](../guides/quick-reference.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:365:- [Testing Guide](../guides/testing-variants.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:368:- [Quick Start](../pipeline/QUICK_START_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:369:- [Workflow](../pipeline/WORKFLOW_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:372:- [Tools Overview](../../tools/README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:373:- [Blender Tools](../../tools/blender/README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:374:- [GLTF Pipeline](../../tools/gltf/README.md)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:381:- [glTF 2.0 Specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:382:- [KHR_materials_variants Spec](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_variants)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:383:- [gltf-transform CLI](https://gltf-transform.donmccurdy.com/)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:386:- [Blender Python API Reference](https://docs.blender.org/api/current/)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:387:- [Addon Development](https://docs.blender.org/manual/en/latest/advanced/scripting/addon_tutorial.html)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:390:- [React Three Fiber API](https://docs.pmnd.rs/react-three-fiber/api/canvas)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:391:- [drei Helpers](https://github.com/pmndrs/drei)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\README.md:392:- [Three.js Documentation](https://threejs.org/docs/)
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\release-v2.0-template.md:125:- **[Quick Start](docs/pipeline/QUICK_START_AUTOMATED.md)** - 5-minute setup
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\release-v2.0-template.md:126:- **[Quick Reference](docs/guides/quick-reference.md)** - Common commands
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\release-v2.0-template.md:129:- **[Pipeline Overview](docs/technical/pipeline-overview.md)** - Architecture
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\release-v2.0-template.md:130:- **[Implementation Summary](docs/technical/implementation-summary.md)** - Technical details
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\release-v2.0-template.md:133:- **[Blender Addon Guide](tools/blender/addons/README.md)** - Addon usage
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\release-v2.0-template.md:134:- **[Testing Guide](docs/guides/testing-variants.md)** - Testing workflow
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\release-v2.0-template.md:181:See [CHANGELOG.md](./CHANGELOG.md) for detailed commit history.
+D:\code\portfolio\hektek-city-demo\docs\archive\technical\release-v2.0-template.md:188:- **Documentation:** [docs/README.md](./docs/README.md)
+D:\code\portfolio\hektek-city-demo\docs\blog\001-vision-origins.md:7:![Vision Banner](https://hector-assets.b-cdn.net/img/post-covers/vision-banner.png)
+D:\code\portfolio\hektek-city-demo\docs\blog\PUBLISHING_WORKFLOW.md:38:1.  Open [Hektek City Live](https://hektek-city.vercel.app/).
+D:\code\portfolio\hektek-city-demo\docs\blog\README.md:13:*   **[Vision Origins: Why 3D?](001-vision-origins.md)**
+D:\code\portfolio\hektek-city-demo\docs\blog\README.md:18:> See the [Publishing Workflow](PUBLISHING_WORKFLOW.md) for detailed instructions on uploading to R2.
+D:\code\portfolio\hektek-city-demo\docs\features\ASSETVIEWER_ANALYSIS.md:142:![AssetViewer Scene Mode](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/assetviewer_mockup_1764676295668.png)
+D:\code\portfolio\hektek-city-demo\docs\features\ASSETVIEWER_ANALYSIS.md:153:![AssetViewer Carousel Mode](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/carousel_mockup_1764676312911.png)
+D:\code\portfolio\hektek-city-demo\docs\features\ASSETVIEWER_ANALYSIS.md:164:![AssetViewer Single Mode](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/single_image_mockup_1764676327791.png)
+D:\code\portfolio\hektek-city-demo\docs\features\ASSETVIEWER_ANALYSIS.md:591:**Syntax**: `![glb](asset://models/HTLand.glb)` → Auto-render AssetViewer
+D:\code\portfolio\hektek-city-demo\docs\features\ASSETVIEWER_ANALYSIS.md:784:- [CreativeIcons Component](../../src/components/CreativeIcons.jsx)
+D:\code\portfolio\hektek-city-demo\docs\features\ASSETVIEWER_ANALYSIS.md:785:- [R2 Utilities](../../src/utils/r2-utils.js)
+D:\code\portfolio\hektek-city-demo\docs\features\ASSETVIEWER_ANALYSIS.md:786:- [DynamicBuildingModel](../../src/components/DynamicBuildingModel.jsx) - GLB pattern reference
+D:\code\portfolio\hektek-city-demo\docs\features\ASSETVIEWER_ANALYSIS.md:787:- [AboutMeScene](../../src/pages/AboutMeScene.jsx) - Carousel pattern reference
+D:\code\portfolio\hektek-city-demo\docs\features\BRANDING.md:17:| **HekTek Red** | `#BB1111` | Primary Actions, Alerts, "HekTek" Brand | ![#BB1111](https://placehold.co/15x15/BB1111/BB1111.png) |
+D:\code\portfolio\hektek-city-demo\docs\features\BRANDING.md:18:| **Cyber Cyan** | `#00F0FF` | Accents, Tech Elements, "City" Brand | ![#00F0FF](https://placehold.co/15x15/00F0FF/00F0FF.png) |
+D:\code\portfolio\hektek-city-demo\docs\features\BRANDING.md:19:| **Void Black** | `#000000` | Backgrounds, Deep Contrast | ![#000000](https://placehold.co/15x15/000000/000000.png) |
+D:\code\portfolio\hektek-city-demo\docs\features\IMPLEMENTATION_SUMMARY.md:216:- **User Guide:** [docs/RUNTIME_MATERIALS_GUIDE.md](docs/RUNTIME_MATERIALS_GUIDE.md)
+D:\code\portfolio\hektek-city-demo\docs\features\IMPLEMENTATION_SUMMARY.md:217:- **Technical Plan:** [PLAN_REAL_SOLUTION.md](PLAN_REAL_SOLUTION.md)
+D:\code\portfolio\hektek-city-demo\docs\features\RUNTIME_MATERIALS_GUIDE.md:313:- [PLAN_REAL_SOLUTION.md](../PLAN_REAL_SOLUTION.md) - Full technical plan
+D:\code\portfolio\hektek-city-demo\docs\features\RUNTIME_MATERIALS_GUIDE.md:314:- [useDynamicMaterials.js](../src/hooks/useDynamicMaterials.js) - Hook implementation
+D:\code\portfolio\hektek-city-demo\docs\features\RUNTIME_MATERIALS_GUIDE.md:315:- [visual-states.json](../src/config/visual-states.json) - Your configuration file
+D:\code\portfolio\hektek-city-demo\docs\features\scene-reactivity-implementation-plan.md:5:**Análisis**: [scene-reactivity-enhancement.md](../technical/scene-reactivity-enhancement.md)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA-FEATURE.md:5:![LIZA Awakening Icon](../assets/liza_concept.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:11:1. [Overview](#overview)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:12:2. [Architecture Diagram](#architecture-diagram)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:13:3. [Component Breakdown](#component-breakdown)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:14:4. [Data Flow](#data-flow)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:15:5. [Key Features](#key-features)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:16:6. [Configuration Files](#configuration-files)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:17:7. [Developer Guide](#developer-guide)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:18:8. [Troubleshooting](#troubleshooting)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:576:- [LIZA Fix Walkthrough](./LIZA_FIX_WALKTHROUGH.md) - Recent bug fixes
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:577:- [LIZA Crisis Recovery Plan](./LIZA_CRISIS_RECOVERY_PLAN.md) - Architectural mistakes and fixes
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:578:- [LIZA Preprocessor Fix Plan](../features/LIZA_PREPROCESSOR_FIX_PLAN.md) - Original fix plan
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_ARCHITECTURE.md:579:- [AI Workflow Protocol](./AI_WORKFLOW_PROTOCOL.md) - Development rules
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_COCKPIT_IMPLEMENTATION.md:463:- [LIZA Feature Guide](./LIZA-FEATURE.md)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_COCKPIT_IMPLEMENTATION.md:464:- [LizaCockpit Design Document](./LIZA_COCKPIT_DESIGN.md)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_COCKPIT_IMPLEMENTATION.md:465:- [v5.6.0 Release Notes](../../releases/v5.6.0.md)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_COCKPIT_IMPLEMENTATION.md:466:- [Architecture Overview](../../ARCHITECTURE.md)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_FIX_WALKTHROUGH.md:146:![Navigation to Experience](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/uploaded_image_0_1764669972001.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_FIX_WALKTHROUGH.md:153:![Clean Chat](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/uploaded_image_1_1764669972001.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\Liza_Guide_I.md:243:![LIZA Chat](../../assets/screenshots/liza-chat-ui.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\Liza_Guide_I.md:246:![LIZA Navigation](../../assets/screenshots/liza-navigation.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\Liza_Guide_I.md:249:![Debug Logs](../../assets/screenshots/liza-debug-logs.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\Liza_Guide_I.md:298:[![Try LIZA Live](https://img.shields.io/badge/🤖_Try-LIZA_Live-00F0FF?style=for-the-badge&labelColor=000000)](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_IMAGE_ASSETS_GUIDE.md:107:![LIZA Banner](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/liza_banner_wide_1764688515225.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\LIZA_IMAGE_ASSETS_GUIDE.md:191:<img src="/img/liza/liza-chat-icon.png" alt="LIZA" />
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\Liza_release_Backlog_plan.md:7:[![Vision](https://img.shields.io/badge/Vision-Unified_Intelligence-purple?style=for-the-badge)](.)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\Liza_release_Backlog_plan.md:8:[![Architecture](https://img.shields.io/badge/Arch-React_R3F_+_Vercel_AI_+_Cloudflare-black?style=for-the-badge)](.)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-architecture.md:149:| `[link]()` | `<a>` | Neon blue, hover glow |
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:102:[External Link](https://example.com)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:103:[Internal Link](/about)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:172:![Alt text](https://example.com/image.jpg)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:173:![Local image](/assets/screenshot.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:224:<img src="logo.png" width="200" />
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:239:![Architecture](diagram.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:286:Click [here](url)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:289:View the [implementation guide](url)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:386:- [Introduction](#introduction)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:387:- [Features](#features)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:388:- [Usage](#usage)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:447:A: Place in `public/assets/` and reference: `![](assets/image.png)`
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:450:A: Yes, use: `[Post Title](/blog#post-id)`
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-guide.md:456:**Issues**: Check [troubleshooting guide](./markdown-rendering-implementation.md#troubleshooting)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-implementation.md:548:- [LIZA Feature Guide](./LIZA-FEATURE.md)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-implementation.md:549:- [Blog Configuration](../../src/config/blog.json)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-implementation.md:550:- [Component Architecture](../ARCHITECTURE.md)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-implementation.md:557:- [react-markdown](https://github.com/remarkjs/react-markdown)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-implementation.md:558:- [remark-gfm](https://github.com/remarkjs/remark-gfm)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\markdown-rendering-implementation.md:559:- [react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-extensibility.md:11:1. [Current System Overview](#current-system-overview)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-extensibility.md:12:2. [How to Add New Hints](#how-to-add-new-hints)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-extensibility.md:13:3. [Future Enhancement: JSON Configuration](#future-enhancement-json-configuration)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-extensibility.md:14:4. [Future Enhancement: Material Library](#future-enhancement-material-library)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-extensibility.md:15:5. [Future Enhancement: Visual Hint Selector](#future-enhancement-visual-hint-selector)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-extensibility.md:516:- [Material Categorization Options](./material-categorization-options.md) - Analysis & comparison
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-extensibility.md:517:- [LIZA Feature Guide](./LIZA-FEATURE.md) - Main feature documentation
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-extensibility.md:518:- [v5.0.0 Release Notes](../../releases/v5.0.0.md) - Neuro-Architect details
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:12:1. [Overview](#overview)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:13:2. [Architecture](#architecture)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:14:3. [Implementation Details](#implementation-details)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:15:4. [Usage Guide](#usage-guide)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:16:5. [Testing](#testing)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:17:6. [Troubleshooting](#troubleshooting)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:559:- [Material Categorization Options](./material-categorization-options.md) - Analysis & comparison of approaches
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:560:- [Material Categorization Extensibility](./material-categorization-extensibility.md) - Future enhancements & how to extend
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:561:- [LIZA Feature Guide](./LIZA-FEATURE.md) - Main LIZA documentation
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-implementation.md:562:- [v5.0.0 Release Notes](../../releases/v5.0.0.md) - Neuro-Architect v5.0
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-options.md:11:1. [Current Situation](#current-situation)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-options.md:12:2. [Option 1: Hybrid (Recommended)](#option-1-hybrid---classifier--optional-hints)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-options.md:13:3. [Option 2: Full Control](#option-2-full-control---extended-schema)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-options.md:14:4. [Option 3: Multimodal](#option-3-multimodal---with-images-future)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-options.md:15:5. [Comparison & Recommendation](#comparison--recommendation)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-options.md:781:- [Neuro-Architect Enhancement Analysis](./neuro-architect-enhancement.md) - Original Quick Win analysis
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-options.md:782:- [LIZA Feature Guide](./LIZA-FEATURE.md) - Main feature documentation
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\material-categorization-options.md:783:- [Speech Recognition Analysis](./speech-recognition-analysis.md) - Voice input feature
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\README.md:5:![LIZA Logo](../../assets/liza-logo.png)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\README.md:9:[![Version](https://img.shields.io/badge/Version-5.0.0-BB1111?style=flat&labelColor=000000)](../../releases/v5.0.0.md)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\README.md:10:[![AI](https://img.shields.io/badge/AI-Gemini_2.0_Flash-00F0FF?style=flat&labelColor=000000)](https://ai.google.dev/)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\README.md:11:[![Status](https://img.shields.io/badge/Status-Production-success?style=flat&labelColor=000000)](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\README.md:299:- **[Release Notes](../../releases/v5.0.0.md)** - Full v5.0.0 documentation
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\README.md:300:- **[Implementation Plan](./liza-impl-plan-claude.md)** - Technical implementation details
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\README.md:301:- **[Release Plan](./liza-release-plan-claude.md)** - Product roadmap and backlog
+D:\code\portfolio\hektek-city-demo\docs\features\Liza\README.md:320:[![Try LIZA](https://img.shields.io/badge/🤖_Try-LIZA_Now-00F0FF?style=for-the-badge&labelColor=000000)](https://hektek-city.vercel.app/)
+D:\code\portfolio\hektek-city-demo\docs\guides\ASSET_PIPELINE.md:30:See [Publishing Workflow](../blog/PUBLISHING_WORKFLOW.md).
+D:\code\portfolio\hektek-city-demo\docs\pipeline\HTLAND_SETUP_GUIDE.md:278:- [LODTerrain Component](../features/LOD_TERRAIN.md)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\HTLAND_SETUP_GUIDE.md:279:- [Visual States Configuration](../features/RUNTIME_MATERIALS_GUIDE.md)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\HTLAND_SETUP_GUIDE.md:280:- [Blender Workflow](BLENDER_WORKFLOW_UPDATED.md)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\HTLAND_SETUP_GUIDE.md:281:- [R2 CDN Setup](../deployment/R2_CDN_SETUP.md)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\MANUAL_LOD_EXPORT.md:256:*For automated workflow, use the Python script: [generate_htland_lods.py](../../tools/blender/generate_htland_lods.py)*
+D:\code\portfolio\hektek-city-demo\docs\pipeline\PROJECT_STRUCTURE.md:248:- [Blender 4.5 Python API](https://docs.blender.org/api/4.5/)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\PROJECT_STRUCTURE.md:249:- [glTF 2.0 Specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\PROJECT_STRUCTURE.md:252:- [KHR_materials_variants Spec](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_variants)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\PROJECT_STRUCTURE.md:255:- [R3F Documentation](https://docs.pmnd.rs/react-three-fiber/)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\PROJECT_STRUCTURE.md:256:- [Drei Helpers](https://github.com/pmndrs/drei)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\QUICK_START_AUTOMATED.md:182:- **[WORKFLOW_AUTOMATED.md](WORKFLOW_AUTOMATED.md)** - Workflow detallado
+D:\code\portfolio\hektek-city-demo\docs\pipeline\QUICK_START_AUTOMATED.md:183:- **[CHANGELOG_AUTOMATION.md](CHANGELOG_AUTOMATION.md)** - Lista de cambios
+D:\code\portfolio\hektek-city-demo\docs\pipeline\QUICK_START_AUTOMATED.md:184:- **[PIPELINE.md](../../PIPELINE.md)** - Documentación completa del sistema
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:6:[![Blender](https://img.shields.io/badge/Blender-4.5.4-orange.svg)](https://www.blender.org/)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:7:[![Node.js](https://img.shields.io/badge/Node.js-18.0.0+-green.svg)](https://nodejs.org/)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:8:[![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:9:[![glTF](https://img.shields.io/badge/glTF-2.0-yellow.svg)](https://www.khronos.org/gltf/)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:38:**[👉 LEE EL QUICKSTART COMPLETO](QUICKSTART.md)**
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:46:| **[INDEX.md](INDEX.md)** 📋 | Punto de entrada principal | 2 min |
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:47:| **[QUICKSTART.md](QUICKSTART.md)** ⭐ | Guía de inicio rápido | 5 min |
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:48:| **[docs/README.md](docs/README.md)** 📖 | Manual completo (10k+ palabras) | 30 min |
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:49:| **[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)** 📁 | Estructura del proyecto | 10 min |
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:50:| **[RELEASE_NOTES.md](RELEASE_NOTES.md)** 📝 | Notas de la versión | 5 min |
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:271:**[👉 VER TROUBLESHOOTING COMPLETO](docs/README.md#troubleshooting)**
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:300:- 📖 [README Completo](docs/README.md) - 10,000+ palabras
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:301:- 🚀 [Quickstart](QUICKSTART.md) - 5 minutos
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:302:- 📁 [Project Structure](PROJECT_STRUCTURE.md) - Estructura detallada
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:303:- 📝 [Release Notes](RELEASE_NOTES.md) - Notas de versión
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:325:**[👉 VER TODAS LAS RELEASE NOTES](RELEASE_NOTES.md)**
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:332:1. ✅ Lee [QUICKSTART.md](QUICKSTART.md)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:338:1. ✅ Lee [docs/README.md](docs/README.md) completo
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:381:- 📋 [INDEX](INDEX.md) - Punto de entrada
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:382:- ⭐ [QUICKSTART](QUICKSTART.md) - Comienza aquí (5 min)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:383:- 📖 [MANUAL COMPLETO](docs/README.md) - Documentación exhaustiva
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:384:- 📁 [ESTRUCTURA](PROJECT_STRUCTURE.md) - Arquitectura del sistema
+D:\code\portfolio\hektek-city-demo\docs\pipeline\README.md:385:- 📝 [RELEASES](RELEASE_NOTES.md) - Notas de versión
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:9:1. [Overview](#overview)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:10:2. [Variant Types](#variant-types)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:11:3. [CSV Format](#csv-format)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:12:4. [Workflow](#workflow)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:13:5. [Examples](#examples)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:14:6. [MATERIAL_PALETTE Usage](#material_palette-usage)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:15:7. [Best Practices](#best-practices)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:431:- [Quick Start Guide](./QUICK_START_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:432:- [Complete Workflow](./WORKFLOW_AUTOMATED.md)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:433:- [Blender Addon Guide](../../tools/blender/README.md)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\VARIANTS_SYSTEM_GUIDE.md:434:- [Pipeline Tools](../../tools/pipeline/README.md)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\WORKFLOW.md:9:1. [Requisitos Previos](#requisitos-previos)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\WORKFLOW.md:10:2. [Estructura del Proyecto](#estructura-del-proyecto)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\WORKFLOW.md:11:3. [Instalación del Addon](#instalación-del-addon)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\WORKFLOW.md:12:4. [Workflow Completo](#workflow-completo)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\WORKFLOW.md:13:5. [Exportación por Edificio](#exportación-por-edificio)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\WORKFLOW.md:14:6. [Procesamiento Node.js](#procesamiento-nodejs)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\WORKFLOW.md:15:7. [Integración en React](#integración-en-react)
+D:\code\portfolio\hektek-city-demo\docs\pipeline\WORKFLOW.md:16:8. [Troubleshooting](#troubleshooting)
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:72:**Documentation**: [`docs/features/Liza/LIZA-FEATURE.md`](../features/Liza/LIZA-FEATURE.md)
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:127:- [`docs/features/Liza/material-categorization-implementation.md`](../features/Liza/material-categorization-implementation.md)
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:128:- [`docs/features/Liza/material-categorization-options.md`](../features/Liza/material-categorization-options.md)
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:179:**Documentation**: [`docs/features/Liza/speech-recognition-analysis.md`](../features/Liza/speech-recognition-analysis.md)
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:243:**Documentation**: [`docs/features/Liza/material-categorization-extensibility.md`](../features/Liza/material-categorization-extensibility.md)
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:310:- [`LIZA-FEATURE.md`](../features/Liza/LIZA-FEATURE.md) - Main LIZA documentation
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:311:- [`material-categorization-implementation.md`](../features/Liza/material-categorization-implementation.md) - Hybrid v5.1 guide
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:312:- [`material-categorization-options.md`](../features/Liza/material-categorization-options.md) - Analysis & comparison
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:313:- [`material-categorization-extensibility.md`](../features/Liza/material-categorization-extensibility.md) - Future enhancements
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:314:- [`speech-recognition-analysis.md`](../features/Liza/speech-recognition-analysis.md) - Voice input technical analysis
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:317:- [`Liza_release_Backlog_plan.md`](../features/Liza/Liza_release_Backlog_plan.md) - Master roadmap
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:318:- [`liza-release-plan-claude.md`](../features/Liza/liza-release-plan-claude.md) - Release strategy
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:319:- [`liza-impl-plan-claude.md`](../features/Liza/liza-impl-plan-claude.md) - Implementation details
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.0.0.md:459:**[Live Demo](https://hektek-city.vercel.app/)** | **[Documentation](../features/Liza/)** | **[GitHub](https://github.com/hmosqueraturner/hektek-city)**
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.6.0.md:243:- [`docs/features/Liza/LIZA_COCKPIT_DESIGN.md`](../features/Liza/LIZA_COCKPIT_DESIGN.md) - Complete design document
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.6.0.md:244:- [`docs/features/Liza/LIZA_COCKPIT_IMPLEMENTATION.md`](../features/Liza/LIZA_COCKPIT_IMPLEMENTATION.md) - Implementation details
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.6.0.md:248:- [`README.md`](../../README.md) - Architecture diagrams updated
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.6.0.md:249:- [`docs/ARCHITECTURE.md`](../ARCHITECTURE.md) - Component hierarchy updated
+D:\code\portfolio\hektek-city-demo\docs\releases\v5.6.0.md:290:**Previous Release**: [v5.0.0 - LIZA "Awakening"](./v5.0.0.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\ASSETVIEWER_GIT_DELIVERABLES.md:147:- 📄 [Technical Analysis](../docs/features/ASSETVIEWER_ANALYSIS.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\ASSETVIEWER_GIT_DELIVERABLES.md:148:- 📄 [Implementation Walkthrough](../docs/technical/ASSETVIEWER_WALKTHROUGH.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\ASSETVIEWER_GIT_DELIVERABLES.md:149:- 🖼️ [Visual Mockups](../docs/assets/screenshots/assetviewer/)
+D:\code\portfolio\hektek-city-demo\docs\technical\ASSETVIEWER_README.md:17:- [Technical Analysis](../features/ASSETVIEWER_ANALYSIS.md) - Architecture review, mockups, design decisions
+D:\code\portfolio\hektek-city-demo\docs\technical\ASSETVIEWER_README.md:18:- [Implementation Walkthrough](./ASSETVIEWER_WALKTHROUGH.md) - Complete implementation details, testing guide
+D:\code\portfolio\hektek-city-demo\docs\technical\ASSETVIEWER_README.md:19:- [Git Deliverables](./ASSETVIEWER_GIT_DELIVERABLES.md) - Commit messages, PR description, changelog
+D:\code\portfolio\hektek-city-demo\docs\technical\ASSETVIEWER_README.md:22:- [LIZA Image Assets Guide](../features/LIZA_IMAGE_ASSETS_GUIDE.md) - Branding assets for LIZA
+D:\code\portfolio\hektek-city-demo\docs\technical\ASSETVIEWER_README.md:23:- [Visual Mockups](../assets/screenshots/assetviewer/) - Design mockups
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:33:* [Home](/)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:34:* [Technical Deep Dive](docs.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:37:* [System Overview](architecture/ARCHITECTURE.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:38:* [System Diagrams](architecture/SYSTEM_DIAGRAMS.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:39:* [Deployment](architecture/DEPLOYMENT.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:42:* [LIZA Agent](features/Liza/LIZA-FEATURE.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:43:* [Neuro-Architect](features/NeuroArchitect/MATERIAL_ANALYSIS.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:44:* [Branding](features/BRANDING.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:47:* [Latest Posts](blog/)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:48:* [Publishing Workflow](blog/PUBLISHING_WORKFLOW.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\REPO_SYNC_PLAN.md:51:* [AI Protocol](technical/AI_WORKFLOW_PROTOCOL.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\scene-reactivity-enhancement.md:5:**Protocolo**: [AI_WORKFLOW_PROTOCOL.md](../technical/AI_WORKFLOW_PROTOCOL.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\incident_reports\LIZA_REDIRECT_LOOP_FIX_PLAN.md:5:**Referencia**: [INCIDENT_2025_LIZA_REDIRECT_LOOP.md](./INCIDENT_2025_LIZA_REDIRECT_LOOP.md)
+D:\code\portfolio\hektek-city-demo\docs\technical\incident_reports\LIZA_REDIRECT_LOOP_FIX_PLAN.md:32:#### [MODIFY] [vercel.json](file:///d:/code/portfolio/hektek-city/vercel.json)
+D:\code\portfolio\hektek-city-demo\docs\technical\incident_reports\LIZA_REDIRECT_LOOP_FIX_PLAN.md:120:#### [MODIFY] [api/liza/chat.js](file:///d:/code/portfolio/hektek-city/api/liza/chat.js)

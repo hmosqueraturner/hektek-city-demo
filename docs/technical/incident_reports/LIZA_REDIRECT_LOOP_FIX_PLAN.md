@@ -29,7 +29,7 @@
 
 ### Solución 1: Corregir Rewrites en vercel.json (Prioridad ALTA)
 
-#### [MODIFY] [vercel.json](file:///d:/code/portfolio/hektek-city/vercel.json)
+#### [MODIFY] [vercel.json](../../../vercel.json)
 
 **Cambio**: Excluir rutas de API del rewrite global
 
@@ -117,7 +117,7 @@ Si usas el nuevo sistema de reglas:
 
 ### Solución 4: Añadir Headers CORS Explícitos (Prioridad BAJA)
 
-#### [MODIFY] [api/liza/chat.js](file:///d:/code/portfolio/hektek-city/api/liza/chat.js)
+#### [MODIFY] [api/liza/chat.js](../../../api/liza/chat.js)
 
 **Cambio**: Añadir headers CORS para evitar conflictos con Cloudflare
 

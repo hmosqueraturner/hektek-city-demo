@@ -143,14 +143,14 @@ Resultado:
 ## 📸 Evidencia Visual
 
 ### Screenshot 1: Navegación Exitosa
-![Navigation to Experience](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/uploaded_image_0_1764669972001.png)
+![Navigation to Experience](../../assets/screenshots/uploaded_image_0_1764669972001.png)
 
 - Cámara enfocada en Experience building
 - Chat muestra texto limpio sin código
 - Tema aplicado (Chernobyl green)
 
 ### Screenshot 2: Chat Limpio
-![Clean Chat](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/uploaded_image_1_1764669972001.png)
+![Clean Chat](../../assets/screenshots/uploaded_image_1_1764669972001.png)
 
 - Respuestas de LIZA claras
 - SIN JSON/código visible

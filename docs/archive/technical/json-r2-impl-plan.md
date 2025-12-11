@@ -40,7 +40,7 @@ We will create a `/config` directory in your R2 bucket and upload the files ther
 ### 2. New Hook: `useRemoteConfig`
 We will create a hook that attempts to fetch the config from R2, and falls back to the local version if the fetch fails or is disabled.
 
-#### [NEW] [src/hooks/useRemoteConfig.js](file:///d:/code/portfolio/hektek-city/src/hooks/useRemoteConfig.js)
+#### [NEW] [src/hooks/useRemoteConfig.js](../../../../src/hooks/useRemoteConfig.js)
 -   **Input**: `configName` (e.g., 'tours'), `localFallback`.
 -   **Logic**:
     1.  Check `content-sources.json` to see if `configs` is enabled.
@@ -51,15 +51,15 @@ We will create a hook that attempts to fetch the config from R2, and falls back 
 ### 3. Component Updates
 We need to refactor components to use this async hook instead of direct imports.
 
-#### [MODIFY] [src/hooks/useTour.js](file:///d:/code/portfolio/hektek-city/src/hooks/useTour.js)
+#### [MODIFY] [src/hooks/useTour.js](../../../../src/hooks/useTour.js)
 -   Remove direct import of `tours-config.json`.
 -   Use `useRemoteConfig('tours-config', localToursConfig)`.
 
-#### [MODIFY] [src/components/MapRPG.jsx](file:///d:/code/portfolio/hektek-city/src/components/MapRPG.jsx)
+#### [MODIFY] [src/components/MapRPG.jsx](../../../../src/components/MapRPG.jsx)
 -   Use `useRemoteConfig` for `visual-states`.
 
 ### 4. Update Content Sources
-#### [MODIFY] [src/config/content-sources.json](file:///d:/code/portfolio/hektek-city/src/config/content-sources.json)
+#### [MODIFY] [src/config/content-sources.json](../../../../src/config/content-sources.json)
 -   Set `configs.enabled` to `true`.
 
 ## Verification Plan

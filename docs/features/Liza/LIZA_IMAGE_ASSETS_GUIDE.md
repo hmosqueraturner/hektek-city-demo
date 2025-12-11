@@ -104,7 +104,7 @@ clean modern design
 - Background oscuro con gradiente sutil
 
 **✅ GENERADO**: 
-![LIZA Banner](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/liza_banner_wide_1764688515225.png)
+![LIZA Banner](../../assets/screenshots/liza_banner_wide_1764688515225.png)
 
 ---
 

@@ -139,7 +139,7 @@ const imgUrl = `${R2_BASE_URL}/img/${folder}/${filename}.jpg`;
 
 ### Mode 1: Scene Viewer (GLB)
 
-![AssetViewer Scene Mode](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/assetviewer_mockup_1764676295668.png)
+![AssetViewer Scene Mode](../../assets/screenshots/assetviewer_mockup_1764676295668.png)
 
 **Features**:
 - 3D Canvas with OrbitControls
@@ -150,7 +150,7 @@ const imgUrl = `${R2_BASE_URL}/img/${folder}/${filename}.jpg`;
 
 ### Mode 2: Carousel Viewer (Image Set)
 
-![AssetViewer Carousel Mode](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/carousel_mockup_1764676312911.png)
+![AssetViewer Carousel Mode](../../assets/screenshots/carousel_mockup_1764676312911.png)
 
 **Features**:
 - Ant Design Carousel
@@ -161,7 +161,7 @@ const imgUrl = `${R2_BASE_URL}/img/${folder}/${filename}.jpg`;
 
 ### Mode 3: Single Image Viewer
 
-![AssetViewer Single Mode](C:/Users/hector/.gemini/antigravity/brain/b31bb821-f791-4b02-855e-0f84ab74ba82/single_image_mockup_1764676327791.png)
+![AssetViewer Single Mode](../../assets/screenshots/single_image_mockup_1764676327791.png)
 
 **Features**:
 - Full-bleed image display
